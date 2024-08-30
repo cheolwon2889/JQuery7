@@ -131,8 +131,8 @@
 // 						tag += title
 // 						tag += "</a>"
 // 					var tag = "<a href='"+link+"'>"+ title + "</a>"
-					// `` 백틱					
-					var tag = `<a href="${link}">${title}</a>`;
+					// `` 백틱 자바스크립트 버전이 달라서 안되는듯					
+// 					var tag = `<a href="${link}">${title}</a>`;
 					$('#news').append(tag+"<hr>");
 					
 					

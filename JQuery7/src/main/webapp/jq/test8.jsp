@@ -69,7 +69,6 @@
 				// #dbMember 테이블에 요소 추가.
 				$(data).each(function(k , v){
 					$('#dbMember').append("<tr><td>"+v.id+"</td><td>"+v.pw+"</td><td>"+v.email+"</td></tr>" );
-					
 				})
 			}
 		});
